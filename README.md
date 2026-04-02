@@ -20,8 +20,8 @@ Weighted scoring optimization techniq
 2. Click "Open in Colab" button at the top
 3. Download places.csv directly from this repo
 4. Upload places.csv to colab by runing 
-
-  from google.colab import files
+                                                                     
+  from google.colab import files                                                                                                                                                                                                     
   uploaded = files.upload()   # select places.csv from your computer
   
 5. Run all cells: Runtime → Run all
