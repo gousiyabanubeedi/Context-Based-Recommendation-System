@@ -3,9 +3,9 @@ A tourism destination recommendation places based on user input like state , cit
 
 ## 3 Models used in this
 1.Keyword & Location Filtering Model
-  Filters destinations based on user input like state, city, or keyword
+  Filters destinations based on user input like state, city, or keyword                                                                                                                                                    
 2.Weather-Based Rule Filtering Model
-  Fetches real-time weather using lat/longitude and eliminates destinations with unfavorable conditions
+  Fetches real-time weather using lat/longitude and eliminates destinations with unfavorable conditions                                                                                                                             
 3.Optimized Weighted Scoring Model
   Ranks remaining destinations based on ratings, and weather suitability
   
