@@ -21,8 +21,8 @@ Weighted scoring optimization techniq
 3. Download places.csv directly from this repo
 4. Upload places.csv to colab by runing 
                                                                      
-  from google.colab import files                                                                                                                                                                                                     
-  uploaded = files.upload()   # select places.csv from your computer
+        from google.colab import files                                                                                                                                                                                                     
+        uploaded = files.upload()   # select places.csv from your computer
   
 5. Run all cells: Runtime → Run all
 6. Notebook will automatically load the dataset
