@@ -2,16 +2,16 @@
 A tourism destination recommendation places based on user input like state , city , keyword .it will Help tourists choose suitable destinations by combining ratings, and live weather data and 3 progressive models for smarter recommendations.
 
 ## 3 Models used in this
-1.Keyword & Location Filtering Model
+1.Keyword & Location Filtering Model - 
   Filters destinations based on user input like state, city, or keyword                                                                                                                                                    
-2.Weather-Based Rule Filtering Model
+2.Weather-Based Rule Filtering Model - 
   Fetches real-time weather using lat/longitude and eliminates destinations with unfavorable conditions                                                                                                                             
-3.Optimized Weighted Scoring Model
+3.Optimized Weighted Scoring Model - 
   Ranks remaining destinations based on ratings, and weather suitability
   
 ## Technologies
-Context-based filtering 
-Rule-based filtering 
+Context-based filtering                                                                                                                                         
+Rule-based filtering                                                                                                                                               
 Weighted scoring optimization techniq
 
   
@@ -23,14 +23,14 @@ Weighted scoring optimization techniq
 from google.colab import files
 uploaded = files.upload()  # Upload places.csv
 ```
-Note : Download places.csv from Kaggle — search "places dataset India tourist"
+Note : Download places.csv from Kaggle — search "places dataset India tourist"                                                                                                                 
 4. Run all cells: **Runtime → Run all**
 
 
 ## Technologies 
-Language: Python
-Backend: Django
-Libraries: Pandas, scikit-learn, NLTK
-Dataset: Kaggle tourism dataset
+Language: Python                                                                                                                                                            
+Backend: Django                                                                                                                                                               
+Libraries: Pandas, scikit-learn, NLTK                                                                                                                                                                             
+Dataset: Kaggle tourism dataset                                                                                                                                                                                            
 API: Open Meteo Weather API
 
