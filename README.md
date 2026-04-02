@@ -17,20 +17,23 @@ Weighted scoring optimization techniq
   
 ## 🚀 How to Run
 1. Click the notebook file in this repo
-2. Click **"Open in Colab"** button at the top
-3. Upload the dataset in Colab:
-```python
-from google.colab import files
-uploaded = files.upload()  # Upload places.csv
-```
-Note : Download places.csv from Kaggle — search "places dataset India tourist"                                                                                                                 
-4. Run all cells: **Runtime → Run all**
+2. Click "Open in Colab" button at the top
+3. Download places.csv directly from this repo
+4. Upload places.csv to colab by runing 
 
+  from google.colab import files
+  uploaded = files.upload()   # select places.csv from your computer
+  
+5. Run all cells: Runtime → Run all
+6. Notebook will automatically load the dataset
+
+Note: If any library is missing, install via
+!pip install [library name]
 
 ## Technologies 
 Language: Python                                                                                                                                                            
 Backend: Django                                                                                                                                                               
 Libraries: Pandas, scikit-learn, NLTK                                                                                                                                                                             
-Dataset: Kaggle tourism dataset                                                                                                                                                                                            
+Dataset: Kaggle tourism dataset                                                                                                                                                                                             
 API: Open Meteo Weather API
 
